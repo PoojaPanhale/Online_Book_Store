@@ -1,0 +1,14 @@
+package Abstraction;
+
+public class Shape1Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Circle1 c=new Circle1("red",true,34);
+		System.out.println(c);
+		System.out.println("===============================================================");
+		Rectangle1 r=new Rectangle1("blue",true,67.90,57.4);
+		System.out.println(r);
+	}
+
+}

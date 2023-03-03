@@ -1,0 +1,26 @@
+package Abstraction;
+
+public class MethodOverloading {
+	public void square()
+	{
+		System.out.println();
+	}
+    public void square(int num)
+    {
+    	int sq=num*num;
+    	System.out.println();
+    }
+    public void square(double num)
+    {
+    	double sq=num*num;
+    	System.out.println();
+    }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 MethodOverloading obj=new  MethodOverloading();
+		 obj.square();
+		 obj.square(90);
+		 obj.square(67.5);
+	}
+
+}

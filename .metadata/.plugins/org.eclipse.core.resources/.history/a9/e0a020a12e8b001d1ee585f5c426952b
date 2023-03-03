@@ -1,0 +1,14 @@
+package classandobject;
+
+public class Demo {
+	int i=90;
+	public Demo()
+	{
+		System.out.println(i);
+	}
+	public void display()
+	{
+		System.out.println(i);
+	}
+
+}

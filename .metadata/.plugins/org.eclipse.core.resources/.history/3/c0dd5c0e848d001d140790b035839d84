@@ -1,0 +1,17 @@
+package Abstraction;
+
+public class Rectangle1 extends Shape1{
+
+	@Override
+	public void area() {
+		System.out.println("area of rectangle");
+		
+	}
+
+	@Override
+	public void peremeter() {
+		
+		System.out.println("peremeter of rectangle");
+	}
+
+}

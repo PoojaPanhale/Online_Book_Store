@@ -1,0 +1,24 @@
+package Abstraction;
+
+public class Bank {
+private int BankID;
+  public Bank()
+  {
+	  
+  }
+public Bank(int bankID) {
+	super();
+	BankID = bankID;
+}
+public int getBankID() {
+	return BankID;
+}
+public void setBankID(int bankID) {
+	BankID = bankID;
+}
+@Override
+public String toString() {
+	return "Bank [BankID=" + BankID + "]";
+}
+  
+}

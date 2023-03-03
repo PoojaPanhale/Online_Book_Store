@@ -1,0 +1,21 @@
+package Assignment1;
+
+public class Array2DExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int arr[][]=new int[3][3];
+		arr[0][1]=12;
+		arr[1][2]=23;
+		arr[2][3]=78;
+		//arr[3][4]=34;
+		//arr[4][5]=10;
+		System.out.println(arr[0][1]);
+		System.out.println(arr[1][2]);
+		System.out.println(arr[2][3]);
+		//System.out.println(arr[3][4]);
+		//System.out.println(arr[4][5]);
+	
+	}
+
+}

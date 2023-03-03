@@ -1,0 +1,9 @@
+package accesspecifier1;
+
+public class OverloadingDemo{
+	private static void display(int a)
+	{
+		System.out.println("Argument="+a);
+	}
+	
+}

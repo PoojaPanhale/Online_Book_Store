@@ -1,0 +1,47 @@
+package classandobject;
+
+public class Bill {
+	private int BillNo;
+	private double noofunits;
+	private int costperunit;
+	private double calculate;
+	public void setBillNo(int BillNo)
+	{
+		this.BillNo=BillNo;
+	}
+	public int getBillNo()
+	{
+		return BillNo;
+	}
+	
+	public double getnoofunits() {
+		return noofunits;
+	}
+	public void setnoofunits(double noofunits) {
+		this.noofunits = noofunits;
+	}
+	public int getcostperunit() {
+		return costperunit;
+	}
+	public void setcostperunit(int costperunit) {
+		this.costperunit =costperunit;
+	
+	}
+	 
+	public double getcalculate()
+	{
+		return calculate;
+	}
+	public void setcalculate(double calculate)
+	{
+		this.calculate=noofunits*costperunit;
+	}
+	@Override
+	public String toString() {
+		return "Bill [BillNo=" + BillNo + ", noofunits=" + noofunits + ", costperunit=" + costperunit + ", calculate="
+				+ calculate + "]";
+	}
+
+	
+	
+}

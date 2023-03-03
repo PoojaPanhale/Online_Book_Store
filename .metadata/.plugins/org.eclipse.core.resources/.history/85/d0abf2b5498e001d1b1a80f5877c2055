@@ -1,0 +1,10 @@
+package accesspecifier1;
+
+public class EbillMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

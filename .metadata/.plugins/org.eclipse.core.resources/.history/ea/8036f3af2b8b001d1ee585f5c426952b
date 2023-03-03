@@ -1,0 +1,29 @@
+package classandobject;
+
+public class BillMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Bill b1=new Bill();
+		b1.setBillNo(1001);
+		b1.setnoofunits(35.89);
+		b1.setcostperunit(56);
+		System.out.println(b1.getBillNo());
+		System.out.println(b1.getnoofunits());
+		System.out.println(b1.getcostperunit());
+		System.out.println("bill amount:"+b1.getcalculate());
+		System.out.println("================================================");
+		 
+		
+		Bill b2=new Bill();
+		b2.setBillNo(1001);
+		b2.setnoofunits(35.89);
+		b2.setcostperunit(100);
+		System.out.println(b2.getBillNo());
+		System.out.println(b2.getnoofunits());
+		System.out.println(b2.getcostperunit());
+		System.out.println("================================================");
+		 
+	}
+
+}

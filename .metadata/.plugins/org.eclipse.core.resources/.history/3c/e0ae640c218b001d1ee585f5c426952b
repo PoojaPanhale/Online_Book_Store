@@ -1,0 +1,14 @@
+package accesspecifier;
+
+public class ClassDemo {
+
+	//public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       private int i=12;
+   public void display()
+   {
+	   System.out.println(i);
+   }
+	}
+
+//}

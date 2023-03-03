@@ -1,0 +1,39 @@
+package accesspecifier1;
+abstract class Birds
+{
+	abstract void makeSound();
+	public void fly()
+	{
+		System.out.println("i can fly");
+	}
+	}
+class parrot extends Birds
+{
+	public void makeSound()
+	{
+		System.out.println("parrot sound...");
+	}
+	}
+class pigeon extends Birds
+{
+	public void makeSound()
+	{
+		System.out.println("pigeon sound....");
+	}
+	}
+public class AbstractBird {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Birds obj=new parrot();
+		parrot p= new parrot();
+		p.makeSound();
+		p.fly();
+		pigeon pg=new pigeon();
+		pg.makeSound();
+		pg.fly();
+		
+
+	}
+
+}

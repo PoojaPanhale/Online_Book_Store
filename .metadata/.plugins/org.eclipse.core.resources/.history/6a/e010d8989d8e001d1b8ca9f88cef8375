@@ -1,0 +1,73 @@
+package accesspecifier1;
+
+public class Ebill implements Bill {
+	 private int billno;
+	    private int nooffliter;
+	    private int costperliter;
+	    
+	    
+	    
+
+	   public Ebill()
+	   {
+		   
+	   }
+
+
+	
+		public Ebill(int billno, int nooffliter, int costperliter) {
+		super();
+		this.billno = billno;
+		this.nooffliter = nooffliter;
+		this.costperliter = costperliter;
+	}
+
+	    public int getBillno() {
+			return billno;
+		}
+
+
+		public void setBillno(int billno) {
+			this.billno = billno;
+		}
+
+
+		public int getNooffliter() {
+			return nooffliter;
+		}
+
+
+		public void setNooffliter(int nooffliter) {
+			this.nooffliter = nooffliter;
+		}
+
+
+		public int getCostperliter() {
+			return costperliter;
+		}
+
+
+		public void setCostperliter(int costperliter) {
+			this.costperliter = costperliter;
+		}
+
+
+@Override
+	    public double calculateBill() {
+	        // TODO Auto-generated method stub
+	        return nooffliter *costperliter;
+	    }
+	   
+	    @Override
+public String toString() {
+	return "Ebill [billno=" + billno + ", nooffliter=" + nooffliter + ", costperliter=" + costperliter + "]";
+}
+
+		
+	    @Override
+	    public void display() {
+	        System.out.println(" The EBill is=:"+calculateBill());
+	        
+	    }
+	    
+}

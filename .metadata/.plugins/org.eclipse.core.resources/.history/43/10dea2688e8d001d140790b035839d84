@@ -1,0 +1,15 @@
+package Abstraction;
+
+public class Shape1Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Circle1 c=new Circle1("red",true,34);
+		System.out.println(c);
+		Circle1 c1=new Circle1();
+		c1.setColor("green");
+		System.out.println(c1.getColor());
+        System.out.println(c1);
+	}
+
+}

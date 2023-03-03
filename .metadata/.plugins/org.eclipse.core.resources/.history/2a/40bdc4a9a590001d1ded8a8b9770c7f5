@@ -1,0 +1,10 @@
+package interfaces;
+
+public class PercentageMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       Eight e=new Eight(12, "pooja", "wai",89.7,67.8, 45.9, 46.38, 85.3, 57.90, 57.8 67.9);
+	}
+
+}

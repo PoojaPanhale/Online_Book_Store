@@ -1,0 +1,12 @@
+package interfaces;
+
+public class Cmain {
+
+	public static void main(String[] args) {
+		C c=new C();
+		c.a();
+		c.b();
+		System.out.println(c);
+	}
+
+}

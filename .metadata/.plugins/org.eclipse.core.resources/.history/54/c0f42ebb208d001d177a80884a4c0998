@@ -1,0 +1,7 @@
+package accesspecifier1;
+
+public class Student {
+     int attendace;
+     int mark;
+     
+}

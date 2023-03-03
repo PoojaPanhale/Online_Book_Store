@@ -1,0 +1,23 @@
+package Abstraction;
+
+public class Circle1 extends Shape1 {
+
+	@Override
+	public void area() {
+		int r=5;
+		double pi=3.14;
+		double area = 3.14*r*r;
+		System.out.println("area of circle :"+area);
+		
+		
+	}
+
+	@Override
+	public void peremeter() {
+		int r=6;
+		double pi=3.14;
+		double peremeter=2*3.14*r;
+		System.out.println("peremeter of circle :"+peremeter);
+	}
+
+}

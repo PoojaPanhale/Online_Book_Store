@@ -1,0 +1,51 @@
+package classandobject;
+
+public class Empolyee1 {
+	int id;
+	String name;
+	double salary;
+	
+	public Empolyee1(int i ,String j,double k)//using constructor
+	{
+		id=i;
+		name=j;
+		salary=k;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public double getSalary() {
+		return salary;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+	 double annualSalary()
+	 {
+		 return salary*12.0;
+	 }
+	 double pf()
+	 {
+		 return(salary*0.18);
+	 }
+	@Override
+	public String toString() {
+		return "Empolyee1 [id=" + id + ", name=" + name + ", salary=" + salary + "]";
+	}
+	
+}

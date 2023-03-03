@@ -1,0 +1,22 @@
+package Abstraction;
+
+public class Rectangle1 extends Shape1{
+
+	@Override
+	public void area() {
+		double length=7.9;
+		double width=6.9;
+		double area=length*width;
+		System.out.println("area of rectangleb :"+area);
+		
+	}
+
+	@Override
+	public void peremeter() {
+		double length=3.4;
+		double width=4.7;
+		double perimeter=2*(length+width);
+		System.out.println("peremeter of rectangle :"+perimeter);
+	}
+
+}

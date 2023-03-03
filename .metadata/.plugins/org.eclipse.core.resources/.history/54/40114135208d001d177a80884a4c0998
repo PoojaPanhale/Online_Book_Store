@@ -1,0 +1,12 @@
+package accesspecifier1;
+
+public class StaffMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student s=new Student(1001,"pooja","Phaltan"89,256,78.50);
+		
+
+	}
+
+}

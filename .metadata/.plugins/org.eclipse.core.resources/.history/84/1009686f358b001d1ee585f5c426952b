@@ -1,0 +1,12 @@
+package classandobject;
+
+public class Student1Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student1 m=new Student1(12,"pooja","wai",35,67,89,68,30);
+		m.percentage();
+      System.out.println(m);
+	}
+
+}
